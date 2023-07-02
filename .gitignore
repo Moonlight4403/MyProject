@@ -1,9 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
 
-# Visual Studio Code user specific files
-.vscode/
-
 # Compiled Object files
 *.slo
 *.lo
@@ -30,7 +27,6 @@
 
 # Executables
 *.exe
-!UEProjectLauncher.exe
 *.out
 *.app
 *.ipa
@@ -51,7 +47,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-*.bin
+Plugins/*/Binaries/*
 
 # Builds
 Build/*
@@ -72,9 +68,7 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
+Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
-Content/Developers/*
-Config/steamvr_ue_editor_app.json
