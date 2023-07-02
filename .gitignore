@@ -79,7 +79,3 @@ DerivedDataCache/*
 
 Content/Developers/*
 Config/steamvr_ue_editor_app.json
-
-MyProject.log
-
-CachedAssetRegistry.bin
